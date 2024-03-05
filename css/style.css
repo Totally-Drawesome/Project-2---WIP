@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#home-screen{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image: url(/media/images/061723_amazon_feat.jpg)
+}
+
+h1{
+    background-color:rgb(1, 81, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 300%;
+}
+
+h2{
+    background-color:rgb(1, 81, 1);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 200%;
+}
+
+h3{
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+.main-img{
+    display: block;
+    /*       TB   LR*/
+    margin: 5px auto;
+    width: 15%;
+    max-width: 300px;
+}
+
+#doggo-img{
+    border: 5px dashed blue;
+}
+
+#cat-img{
+    border: 3px solid yellow;
+}
+
+#secret-text{
+    position: absolute;
+    top: 80%;
+    left: 25%;
+}
+
+.animate-img{
+    animation: scale-img 2s;
+}
+
+@keyframes scale-img{
+    0%{
+        width: 15%;
+    }
+    50%{
+        width: 30%;
+    }
+    100%{
+        width: 15%;
+    }
+}
+
+#super-secret{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 85%;
+    left: 25%;
+    background-color: lightblue;
+}
+
+#happy-img{
+    position: absolute;
+    width: 200px;
+    top: 25%;
+    right: 15%;
+    border-radius: 50%;
+}
+
+#toggle-text:hover{
+    background-color: blue;
+}
+
+#secret-text:hover{
+    font-size: 45px;
+    color: blue;
+    cursor: pointer;
+}
+
+#popup{
+    position: absolute;
+    top: 7%;
+    font-size: 20px;
+    
+}
+
+
+
+#terrain{
+    position: fixed;
+    bottom: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.stumps{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.holes{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.seeds{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dirt{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sapling{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smalltrees{
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trees{
+    display: flex;
+    justify-content: space-between;
+    height: 70%;
+    width: 70%;
+    margin-right: auto;
+}
+
+.bigtrees{
+    display: flex;
+    justify-content: space-between;
+    height: 50%;
+    width: 50%;
+    margin-right: auto;
+}
+
+#stump1{
+    display: block;
+    padding: 100px;
+}
+
+#stump2{
+    display: block;
+    padding: 100px;
+
+}
+
+#stump3{
+    display: block;
+    padding: 100px;
+}
+
+#hole1{
+    display: block;
+    padding: 100px;
+}
+
+#hole2{
+    display: block;
+    padding: 100px;
+}
+
+#hole3{
+    display: block;
+    padding: 100px;
+}
+
+#seed1{
+    display: block;
+    padding: 100px;
+}
+
+#seed2{
+    display: block;
+    padding: 100px;
+}
+
+#seed3{
+    display: block;
+    padding: 100px;
+}
+
+#dirt1{
+    display: block;
+    padding: 100px;
+}
+
+#dirt2{
+    display: block;
+    padding: 100px;
+}
+
+#dirt3{
+    display: block;
+    padding: 100px;
+}
+
+#sapling1{
+    display: block;
+    padding: 100px;
+}
+
+#sapling2{
+    display: block;
+    padding: 100px;
+}
+
+#sapling3{
+    display: block;
+    padding: 100px;
+}
+
+#smalltree1{
+    display: block;
+    padding: 100px;
+}
+
+#smalltree2{
+    display: block;
+    padding: 100px;
+}
+
+#smalltree3{
+    display: block;
+    padding: 100px;
+}
+
+#tree1{
+    display: block;
+    padding: 50px;
+}
+
+#tree2{
+    display: block;
+    padding: 50px;
+}
+
+#tree3{
+    display: block;
+    padding: 50px;
+}
+
+#bigtree1{
+    display: block;
+    padding: 10px;
+}
+
+#bigtree2{
+    display: block;
+    padding: 10px;
+}
+
+#bigtree3{
+    display: block;
+    padding: 10px;
+}
